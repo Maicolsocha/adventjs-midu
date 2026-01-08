@@ -50,10 +50,6 @@ node reto-2.js
 
 ## 📚 Learning Resources
 
-- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
-- [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-
 ---
 
 ⭐ **Star this repository if you find it helpful!**

@@ -5,8 +5,22 @@ const production1 = [
 ]
 
 function manufactureGifts(giftsToProduce) {
-  
-  
+
+  if (giftsToProduce) {
+    let arr = []
+    giftsToProduce.forEach(gift => {
+      for (let i = 0; i < gift.quantity; i++) {
+        arr.push(gift.toy)
+      }
+    })
+    return arr
+  }
 }
 
+
+
 console.log(manufactureGifts(production1))
+
+
+
+

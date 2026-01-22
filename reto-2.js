@@ -5,16 +5,15 @@ const production1 = [
 ]
 
 function manufactureGifts(giftsToProduce) {
-
-  if (giftsToProduce) {
-    let arr = []
-    giftsToProduce.forEach(gift => {
+  let arr = []
+  giftsToProduce.forEach(gift => {
+    if (typeof gift.quantity==='number' && gift.quantity > 0) {
       for (let i = 0; i < gift.quantity; i++) {
         arr.push(gift.toy)
       }
-    })
-    return arr
-  }
+    }
+  })
+  return arr
 }
 
 
